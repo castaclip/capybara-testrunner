@@ -21,6 +21,6 @@ spec = Gem::Specification.new do |spec|
   spec.executables    = ["sc-testdriver"]
   
   # the defaults
-  spec.bindir         = ["bin"]
-  spec.require_paths  = ["lib"]
+  spec.bindir         = "bin"
+  spec.require_paths  = "lib"
 end
