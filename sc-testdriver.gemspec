@@ -22,5 +22,5 @@ spec = Gem::Specification.new do |spec|
   
   # the defaults
   spec.bindir         = "bin"
-  spec.require_paths  = "lib"
+  spec.require_paths  = ["lib"]
 end
