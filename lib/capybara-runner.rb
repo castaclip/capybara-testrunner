@@ -2,10 +2,10 @@ require 'capybara'
 require 'capybara/dsl'
 
 class CapybaraRunner
-  def initialize(driver, app_host)
-    puts "app_host: #{app_host}"
+  def initialize(driver, app)
+    #puts "app_host: #{app_host}"
     Capybara.current_driver = driver
-    Capybara.app_host = app_host
+    Capybara.app = app
   end
   
   def open(url)
